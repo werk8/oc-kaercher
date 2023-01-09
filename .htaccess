@@ -1,0 +1,32 @@
+# Turn on URL rewriting
+RewriteEngine On
+
+# Installation directory
+RewriteBase /
+
+# Protect hidden files from being viewed
+<Files .*>
+    Order Deny,Allow
+    Deny From All
+</Files>
+
+# Protect system files from being viewed
+RewriteRule ^(?:system)\b.* index.html/$0 [L]
+RewriteRule ^(?:uploads)\b.* index.html/$0 [L]
+
+# Allow any files or directories that exist to be displayed directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite all other URLs to index.html/?URL
+RewriteRule .* index.html?/$0 [PT]
+
+AuthType Basic
+AuthName "Passwortgeschützter Bereich"
+AuthUserFile .htpasswd
+Require valid-user
+
+AuthName "Kundenbereich"
+AuthType Basic 
+AuthUserFile /home/www/p279835/html/.htpasswd
+Require valid-user
