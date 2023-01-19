@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 311.81 311.81" style="enable-background:new 0 0 311.81 311.81;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFED00;stroke-width:6;}
+	.st1{clip-path:url(#SVGID_2_);fill:none;stroke:#FFED00;stroke-width:6;}
+</style>
+<polyline class="st0" points="266.34,206.34 280.45,206.34 280.45,165.26 257.91,139.87 226.79,139.87 "/>
+<path class="st0" d="M239.72,206.34"/>
+<line class="st0" x1="192.29" y1="206.34" x2="243.27" y2="206.34"/>
+<path class="st0" d="M176.76,206.34"/>
+<line class="st0" x1="158.94" y1="206.34" x2="169.68" y2="206.34"/>
+<polyline class="st0" points="122.69,181.54 122.69,206.34 136.23,206.34 "/>
+<polyline class="st0" points="280.73,171.25 248.5,171.25 248.5,139.87 "/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="311.81" height="311.81"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	
+		<ellipse transform="matrix(0.3827 -0.9239 0.9239 0.3827 -34.6753 364.7786)" class="st1" cx="255.63" cy="208.34" rx="11.48" ry="11.48"/>
+	
+		<ellipse transform="matrix(0.1602 -0.9871 0.9871 0.1602 -54.5725 352.5315)" class="st1" cx="179.89" cy="208.34" rx="11.48" ry="11.48"/>
+	<path class="st1" d="M136.6,208.34c0-6.34,5.14-11.48,11.48-11.48c6.34,0,11.48,5.14,11.48,11.48c0,6.34-5.14,11.48-11.48,11.48
+		C141.74,219.81,136.6,214.68,136.6,208.34"/>
+	<path class="st1" d="M112.88,159.17c0-13.55,9.46-24.53,21.13-24.53h79.23c11.67,0,21.14,10.98,21.14,24.53
+		c0,13.55-9.46,24.53-21.14,24.53h-79.23C122.34,183.7,112.88,172.72,112.88,159.17z"/>
+</g>
+<line class="st0" x1="123.13" y1="206.29" x2="27.41" y2="206.29"/>
+<line class="st0" x1="123.13" y1="194.62" x2="52.64" y2="194.62"/>
+<line class="st0" x1="123.13" y1="182.96" x2="86.85" y2="182.96"/>
+</svg>
