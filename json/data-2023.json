@@ -1,0 +1,27 @@
+{
+  "projects": [
+    {
+      "number": "1",
+      "title": "Battery Power",
+      "slug": "",
+      "content": "lorem ipsum sit dolor amet",
+      "formats": [
+        { "id": "1", "label": "120 x 600 px", "slug": "/input/2022/aktion11/120x600/index.html" },
+        { "id": "2", "label": "160 x 600 px", "slug": "/input/2022/aktion11/160x600/index.html" },
+        { "id": "3", "label": "300 x 250 px", "slug": "/input/2022/aktion11/300x250/index.html" }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "BG Bau",
+      "slug": "",
+      "content": "lorem ipsum sit dolor amet"
+    },
+    {
+      "number": "3",
+      "title": "Floorcare",
+      "slug": "",
+      "content": "lorem ipsum sit dolor amet"
+    }
+  ]
+}

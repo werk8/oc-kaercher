@@ -1,0 +1,120 @@
+@tailwind base;
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url('../public/fonts/ubuntu-light.eot') format('eot');
+  src: url('../public/fonts/ubuntu-light.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/ubuntu-light.otf') format('otf'),
+    url('../public/fonts/ubuntu-light.svg') format('svg'),
+    url('../public/fonts/ubuntu-light.ttf') format('truetype'),
+    url('../public/fonts/ubuntu-light.woff') format('woff'),
+    url('../public/fonts/ubuntu-light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('../public/fonts/ubuntu-regular.eot') format('eot');
+  src: url('../public/fonts/ubuntu-regular.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/ubuntu-regular.otf') format('otf'),
+    url('../public/fonts/ubuntu-regular.svg') format('svg'),
+    url('../public/fonts/ubuntu-regular.ttf') format('truetype'),
+    url('../public/fonts/ubuntu-regular.woff') format('woff'),
+    url('../public/fonts/ubuntu-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url('../public/fonts/ubuntu-medium.eot') format('eot');
+  src: url('../public/fonts/ubuntu-medium.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/ubuntu-medium.otf') format('otf'),
+    url('../public/fonts/ubuntu-medium.svg') format('svg'),
+    url('../public/fonts/ubuntu-medium.ttf') format('truetype'),
+    url('../public/fonts/ubuntu-medium.woff') format('woff'),
+    url('../public/fonts/ubuntu-medium.woff2') format('woff2');
+}
+
+html {
+  font-family: 'Ubuntu', sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  font-weight: normal;
+  font-display: optional;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgba(0, 0, 0, 0.88);
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-padding-top: 10rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  p {
+    @apply text-[1.0625rem] font-light lg:text-base 2xl:text-[1.125rem];
+  }
+
+  p {
+    line-height: 1.7 !important;
+  }
+
+  strong {
+    @apply font-medium;
+  }
+
+  h1,
+  h2,
+  h4,
+  h3,
+  h5,
+  h6 {
+    @apply font-light;
+  }
+
+  h1 {
+    @apply pb-5 text-[2.25rem] leading-[1.2] lg:text-[2.625rem] 2xl:text-[3rem];
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply pb-4 text-[2rem] leading-[1.2];
+  }
+}
+
+@layer utilities {
+  .content-wrapper-xl {
+    @apply px-[calc(100%/24)];
+  }
+
+  .content-wrapper-lg {
+    @apply px-[calc(100%/24)] 2xl:px-[calc(100%/8)];
+  }
+
+  .content-wrapper-md {
+    @apply px-[calc(100%/24)] lg:px-[calc(100%/4)];
+  }
+
+  .content-wrapper-sm {
+    @apply px-[calc(100%/24)] lg:px-[calc(100%/4)] 2xl:px-[calc(100%/3)];
+  }
+}
