@@ -23,8 +23,8 @@ export default function Index({ data }) {
       <HeadComponent />
       <Header />
 
-      <section className="content-wrapper-xl border-b bg-white pt-[4.5rem]">
-        <section className="flex flex-row items-center  py-5">
+      <Layout>
+        <section className="content-wrapper-xl flex flex-row items-center border-b bg-white py-5">
           <div className="mr-8 bg-black py-2 px-3">
             <h1 className="pb-0 text-base font-medium leading-none text-white">2023</h1>
           </div>
@@ -50,10 +50,8 @@ export default function Index({ data }) {
             })}
           </ul>
         </section>
-      </section>
 
-      <Layout>
-        <section className="mt-calc-24 flex flex-row gap-4">
+        <section className="content-wrapper-xl mt-calc-24 flex flex-row gap-4">
           <section className="w-3/12">
             {data.projects.map((item, index) => (
               <section key={index}>

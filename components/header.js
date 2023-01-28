@@ -16,7 +16,7 @@ export async function getStaticProps() {
 export default function Header({ data }) {
   const router = useRouter()
   return (
-    <header className="fixed w-full border-b border-[rgba(0,0,0,0.16)] bg-white">
+    <header className="fixed z-50 w-full border-b border-[rgba(0,0,0,0.16)] bg-white">
       <section className="container">
         <div className="content-wrapper-xl flex flex-row items-center justify-between py-5">
           <Link href={`/`}>
@@ -35,28 +35,6 @@ export default function Header({ data }) {
             </div>
           </Link>
           <ul className="flex flex-row gap-6">
-            <li>
-              <Link href="/2021" passHref>
-                <span
-                  className={`cursor-pointer text-[0.875] transition-all duration-500 ease-out hover:text-[rgba(0,0,0,0.48)] ${
-                    router.asPath === '/2021' ? 'font-medium text-oc-orange' : null
-                  }`}
-                >
-                  2021
-                </span>
-              </Link>
-            </li>
-            <li>
-              <Link href="/2022" passHref>
-                <span
-                  className={`cursor-pointer text-[0.875] transition-all duration-500 ease-out hover:text-[rgba(0,0,0,0.48)] ${
-                    router.asPath === '/2022' ? 'font-medium text-oc-orange' : null
-                  }`}
-                >
-                  2022
-                </span>
-              </Link>
-            </li>
             <li>
               <Link href="/2023" passHref>
                 <span

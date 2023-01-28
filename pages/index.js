@@ -22,7 +22,7 @@ export default function Index({ data }) {
       <HeadComponent />
       <Header data={data.navigation.title} />
       <Layout>
-        <section>
+        <section className="content-wrapper-xl mt-calc-24">
           <h1 className="pb-4">
             welcome to <span className="font-medium">banner tool</span>
           </h1>
