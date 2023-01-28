@@ -1,12 +1,10 @@
 import React, { useState } from 'react'
-import Link from 'next/link'
 
 import dataInput from '../../json/data-2023.json'
 
 import Header from '../../components/head'
 import HeadComponent from '../../components/header'
 import Layout from '../../components/layout'
-import NavLink from '../../components/link'
 
 export async function getStaticProps() {
   const data = dataInput
@@ -25,9 +23,11 @@ export default function Index({ data }) {
       <HeadComponent />
       <Header />
 
-      <Layout>
-        <section className="border-b pb-4">
-          <h1 className="pb-4 font-medium">2023</h1>
+      <section className="content-wrapper-xl border-b bg-white pt-[4.5rem]">
+        <section className="flex flex-row items-center  py-5">
+          <div className="mr-8 bg-black py-2 px-3">
+            <h1 className="pb-0 text-base font-medium leading-none text-white">2023</h1>
+          </div>
           <ul className="flex flex-row gap-x-6">
             {data.projects.map((item, index) => {
               const handleTabClick = () => {
@@ -50,14 +50,16 @@ export default function Index({ data }) {
             })}
           </ul>
         </section>
+      </section>
 
+      <Layout>
         <section className="mt-calc-24 flex flex-row gap-4">
           <section className="w-3/12">
             {data.projects.map((item, index) => (
               <section key={index}>
                 {currentTab === item.number ? (
                   <>
-                    <span className="text-[0.875rem] opacity-50">Formats</span>
+                    <span className="text-[0.875rem] opacity-50">{item.content}</span>
                     <ul className="list-disc gap-4 pt-2 pl-5">
                       {item.formats.map((data, index) => {
                         const handleTabClick = () => {
@@ -65,7 +67,7 @@ export default function Index({ data }) {
                         }
                         return (
                           <>
-                            <li key={index} className="py-1">
+                            <li key={index} className="py-2">
                               <button
                                 id={data.id}
                                 disabled={currentItem === `${data.id}`}
@@ -86,7 +88,7 @@ export default function Index({ data }) {
               </section>
             ))}
           </section>
-          <section className="h-[900px] w-full border border-[rgba(0,0,0,0.12)]">
+          <section className="h-[600px] w-full border border-[rgba(0,0,0,0.12)]">
             {data.projects.map((item, index) => (
               <section key={index}>
                 {currentTab === item.number ? (
@@ -97,8 +99,8 @@ export default function Index({ data }) {
                           <div key={index}>
                             {currentItem === data.id ? (
                               <iframe
-                                src={`http://localhost:3000/${data.slug}`}
-                                className="m-auto h-[900px] w-full"
+                                src={`https://oc-banner.vercel.app//${data.slug}`}
+                                className="m-auto h-[600px] w-[960px]"
                               ></iframe>
                             ) : null}
                           </div>

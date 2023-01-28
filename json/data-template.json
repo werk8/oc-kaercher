@@ -15,6 +15,12 @@
         { "id": "7", "label": "800 x 250 px", "slug": "/input/2023/awareness/800x250/index.html" },
         { "id": "8", "label": "970 x 250 px", "slug": "/input/2023/awareness/970x250/index.html" }
       ]
+    },
+    {
+      "number": "2",
+      "title": "Coming soon",
+      "slug": "",
+      "content": "lorem ipsum sit dolor amet"
     }
   ]
 }
