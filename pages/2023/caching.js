@@ -1,10 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState, lazy, Suspense } from 'react'
+import axios from 'axios'
 
 import dataInput from '../../json/data-2023.json'
 
 import Header from '../../components/head'
 import HeadComponent from '../../components/header'
 import Layout from '../../components/layout'
+
+const iFrameComponent = lazy(() => import('../../components/iFrame-component'))
 
 export async function getStaticProps() {
   const data = dataInput
@@ -18,6 +21,7 @@ export async function getStaticProps() {
 export default function Index({ data }) {
   const [currentTab, setCurrentTab] = useState('01')
   const [currentItem, setCurrentItem] = useState('01')
+
   return (
     <>
       <HeadComponent />
@@ -87,32 +91,32 @@ export default function Index({ data }) {
             ))}
           </section>
           <section className="h-[600px] w-full border border-[rgba(0,0,0,0.12)]">
-            {data.projects.map((item, index) => (
-              <section key={index}>
-                {currentTab === item.number ? (
-                  <>
-                    <section className="flex justify-center">
-                      {item.formats.map((data, index) => (
-                        <>
-                          <div key={index}>
-                            {currentItem === data.id ? (
-                              <iframe
-                                width="100%"
-                                height="960"
-                                frameBorder="0"
-                                src={`https://oc-banner.vercel.app//${data.slug}`}
-                                className="m-auto h-[600px] w-[960px]"
-                                sandbox="allow-same-origin allow-scripts"
-                              ></iframe>
-                            ) : null}
-                          </div>
-                        </>
-                      ))}
-                    </section>
-                  </>
-                ) : null}
-              </section>
-            ))}
+            {data.projects.map((item, index) => {
+              return (
+                <section key={index}>
+                  {currentTab === item.number ? (
+                    <>
+                      <section className="flex justify-center">
+                        {item.formats.map((data, index) => {
+                          const [currentURL] = data.id
+                          return (
+                            <>
+                              <div key={index}>
+                                {currentItem === data.id ? (
+                                  <Suspense fallback={<div>Loading...</div>}>
+                                    <iFrameComponent src={`http://localhost:3000/${currentURL}`} />
+                                  </Suspense>
+                                ) : null}
+                              </div>
+                            </>
+                          )
+                        })}
+                      </section>
+                    </>
+                  ) : null}
+                </section>
+              )
+            })}
           </section>
         </section>
       </Layout>
