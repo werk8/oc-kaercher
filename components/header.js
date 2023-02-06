@@ -2,18 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-import dataInput from '../json/data.json'
-
-export async function getStaticProps() {
-  const data = dataInput
-  return {
-    props: {
-      data,
-    },
-  }
-}
-
-export default function Header({ data }) {
+export default function Header({}) {
   const router = useRouter()
   return (
     <header className="fixed z-50 w-full border-b border-[rgba(0,0,0,0.16)] bg-white">

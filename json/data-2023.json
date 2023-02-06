@@ -2,18 +2,36 @@
   "projects": [
     {
       "number": "1",
-      "title": "Akku – Awareness",
-      "slug": "",
-      "content": "Awareness",
-      "formats": [
-        { "id": "1", "label": "120 x 600 px", "slug": "/input/2023/awareness/120x600/index.html" },
-        { "id": "2", "label": "160 x 600 px", "slug": "/input/2023/awareness/160x600/index.html" },
-        { "id": "3", "label": "300 x 250 px", "slug": "/input/2023/awareness/300x250/index.html" },
-        { "id": "4", "label": "300 x 600 px", "slug": "/input/2023/awareness/300x600/index.html" },
-        { "id": "5", "label": "320 x 480 px", "slug": "/input/2023/awareness/320x480/index.html" },
-        { "id": "6", "label": "728 x 90 px", "slug": "/input/2023/awareness/728x90/index.html" },
-        { "id": "7", "label": "800 x 250 px", "slug": "/input/2023/awareness/800x250/index.html" },
-        { "id": "8", "label": "970 x 250 px", "slug": "/input/2023/awareness/970x250/index.html" }
+      "title": "Akku",
+      "sections": [
+        {
+          "number": "1",
+          "title": "Awareness",
+          "formats": [
+            { "id": "1", "label": "120 x 600 px", "slug": "/input/2023/akku/awareness/120x600/index.html" },
+            { "id": "2", "label": "160 x 600 px", "slug": "/input/2023/akku/awareness/160x600/index.html" },
+            { "id": "3", "label": "300 x 250 px", "slug": "/input/2023/akku/awareness/300x250/index.html" },
+            { "id": "4", "label": "300 x 600 px", "slug": "/input/2023/akku/awareness/300x600/index.html" },
+            { "id": "5", "label": "320 x 480 px", "slug": "/input/2023/akku/awareness/320x480/index.html" },
+            { "id": "6", "label": "728 x 90 px", "slug": "/input/2023/akku/awareness/728x90/index.html" },
+            { "id": "7", "label": "800 x 250 px", "slug": "/input/2023/akku/awareness/800x250/index.html" },
+            { "id": "8", "label": "970 x 250 px", "slug": "/input/2023/akku/awareness/970x250/index.html" }
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Retargeting",
+          "formats": [
+            { "id": "1", "label": "120 x 600 px", "slug": "/input/2023/akku/retargeting/120x600/index.html" },
+            { "id": "2", "label": "160 x 600 px", "slug": "/input/2023/akku/retargeting/160x600/index.html" },
+            { "id": "3", "label": "300 x 250 px", "slug": "/input/2023/akku/retargeting/300x250/index.html" },
+            { "id": "4", "label": "300 x 600 px", "slug": "/input/2023/akku/retargeting/300x600/index.html" },
+            { "id": "5", "label": "320 x 480 px", "slug": "/input/2023/akku/retargeting/320x480/index.html" },
+            { "id": "6", "label": "728 x 90 px", "slug": "/input/2023/akku/retargeting/728x90/index.html" },
+            { "id": "7", "label": "800 x 250 px", "slug": "/input/2023/akku/retargeting/800x250/index.html" },
+            { "id": "8", "label": "970 x 250 px", "slug": "/input/2023/akku/retargeting/970x250/index.html" }
+          ]
+        }
       ]
     }
   ]

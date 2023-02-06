@@ -103,18 +103,18 @@ html {
 
 @layer utilities {
   .content-wrapper-xl {
-    @apply px-[calc(100%/24)];
+    @apply mx-[calc(100%/24)];
   }
 
   .content-wrapper-lg {
-    @apply px-[calc(100%/24)] 2xl:px-[calc(100%/8)];
+    @apply mx-[calc(100%/24)] 2xl:mx-[calc(100%/8)];
   }
 
   .content-wrapper-md {
-    @apply px-[calc(100%/24)] lg:px-[calc(100%/4)];
+    @apply mx-[calc(100%/24)] lg:mx-[calc(100%/4)];
   }
 
   .content-wrapper-sm {
-    @apply px-[calc(100%/24)] lg:px-[calc(100%/4)] 2xl:px-[calc(100%/3)];
+    @apply ,x-[calc(100%/24)] lg:mx-[calc(100%/4)] 2xl:mx-[calc(100%/3)];
   }
 }
