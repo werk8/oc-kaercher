@@ -9,7 +9,7 @@ export default function Index({}) {
   return (
     <>
       <HeadComponent />
-      <Header data={data.navigation.title} />
+      <Header />
       <Layout>
         <section className="content-wrapper-xl mt-calc-24">
           <h1 className="pb-4">
