@@ -25,6 +25,17 @@ export default function Header({}) {
           </Link>
           <ul className="flex flex-row gap-6">
             <li>
+              <Link href="/2022" passHref>
+                <span
+                  className={`cursor-pointer text-[0.875] transition-all duration-500 ease-out hover:text-[rgba(0,0,0,0.48)] ${
+                    router.asPath === '/2022' ? 'font-medium text-oc-orange' : null
+                  }`}
+                >
+                  2023
+                </span>
+              </Link>
+            </li>
+            <li>
               <Link href="/2023" passHref>
                 <span
                   className={`cursor-pointer text-[0.875] transition-all duration-500 ease-out hover:text-[rgba(0,0,0,0.48)] ${
