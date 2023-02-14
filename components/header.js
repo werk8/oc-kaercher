@@ -31,7 +31,7 @@ export default function Header({}) {
                     router.asPath === '/2022' ? 'font-medium text-oc-orange' : null
                   }`}
                 >
-                  2023
+                  2022
                 </span>
               </Link>
             </li>

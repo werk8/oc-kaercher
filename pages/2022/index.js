@@ -27,7 +27,7 @@ export default function Index({ data }) {
       <Layout>
         <section className="content-wrapper-xl flex flex-row items-center border-b bg-white py-5">
           <div className="mr-8 bg-black py-2 px-3">
-            <h1 className="pb-0 text-base font-medium leading-none text-white">2023</h1>
+            <h1 className="pb-0 text-base font-medium leading-none text-white">2022</h1>
           </div>
           <ul className="flex flex-row gap-x-6">
             {data.projects.map((item, index) => {
