@@ -8,7 +8,7 @@
           "number": "1",
           "title": "Awareness",
           "formats": [
-            { "id": "1", "label": "120 x 600 px", "slug": "/input/2022/fwt/120x600.html" },
+            { "id": "1", "label": "120 x 600 px", "slug": "/input/2022/fwt/120x600/index.html" },
             { "id": "2", "label": "160 x 600 px", "slug": "/input/2022/fwt/160x600/index.html" },
             { "id": "3", "label": "300 x 250 px", "slug": "/input/2022/fwt/300x250/index.html" },
             { "id": "4", "label": "300 x 600 px", "slug": "/input/2022/fwt/300x600/index.html" },
