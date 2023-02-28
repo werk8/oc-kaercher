@@ -76,14 +76,46 @@
           "number": "1",
           "title": "Awareness",
           "formats": [
-            { "id": "1", "label": "120 x 600 px", "slug": "/input/2023/akku/aktion-hds/120x600/index.html" },
-            { "id": "2", "label": "160 x 600 px", "slug": "/input/2023/akku/aktion-hds/160x600/index.html" },
-            { "id": "3", "label": "300 x 250 px", "slug": "/input/2023/akku/aktion-hds/300x250/index.html" },
-            { "id": "4", "label": "300 x 600 px", "slug": "/input/2023/akku/aktion-hds/300x600/index.html" },
-            { "id": "5", "label": "320 x 480 px", "slug": "/input/2023/akku/aktion-hds/320x480/index.html" },
-            { "id": "6", "label": "728 x 90 px", "slug": "/input/2023/akku/aktion-hds/728x90/index.html" },
-            { "id": "7", "label": "800 x 250 px", "slug": "/input/2023/akku/aktion-hds/800x250/index.html" },
-            { "id": "8", "label": "970 x 250 px", "slug": "/input/2023/akku/aktion-hds/970x250/index.html" }
+            {
+              "id": "1",
+              "label": "120 x 600 px",
+              "slug": "/input/2023/aktion-hds/awareness/120x600/index.html"
+            },
+            {
+              "id": "2",
+              "label": "160 x 600 px",
+              "slug": "/input/2023/aktion-hds/awareness/160x600/index.html"
+            },
+            {
+              "id": "3",
+              "label": "300 x 250 px",
+              "slug": "/input/2023/aktion-hds/awareness/300x250/index.html"
+            },
+            {
+              "id": "4",
+              "label": "300 x 600 px",
+              "slug": "/input/2023/aktion-hds/awareness/300x600/index.html"
+            },
+            {
+              "id": "5",
+              "label": "320 x 480 px",
+              "slug": "/input/2023/aktion-hds/awareness/320x480/index.html"
+            },
+            {
+              "id": "6",
+              "label": "728 x 90 px",
+              "slug": "/input/2023/aktion-hds/awareness/728x90/index.html"
+            },
+            {
+              "id": "7",
+              "label": "800 x 250 px",
+              "slug": "/input/2023/aktion-hds/awareness/800x250/index.html"
+            },
+            {
+              "id": "8",
+              "label": "970 x 250 px",
+              "slug": "/input/2023/aktion-hds/awareness/970x250/index.html"
+            }
           ]
         },
         {
