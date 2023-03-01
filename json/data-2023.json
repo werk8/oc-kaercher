@@ -44,18 +44,6 @@
           "formats": [
             {
               "id": "1",
-              "label": "160 x 600 px",
-              "slug": "/input/2023/iv-sauger/awareness/160x600/index.html"
-            },
-            { "id": "2", "label": "728 x 90 px", "slug": "/input/2023/iv-sauger/awareness/728x90/index.html" }
-          ]
-        },
-        {
-          "number": "1",
-          "title": "Retargeting",
-          "formats": [
-            {
-              "id": "1",
               "label": "120 x 600 px",
               "slug": "/input/2023/iv-sauger/retargeting/120x600/index.html"
             },
@@ -93,6 +81,98 @@
               "id": "8",
               "label": "970 x 250 px",
               "slug": "/input/2023/iv-sauger/retargeting/970x250/index.html"
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Retargeting Industrie",
+          "formats": [
+            {
+              "id": "1",
+              "label": "120 x 600 px",
+              "slug": "/input/2023/iv-sauger/retargeting/industrie/120x600/index.html"
+            },
+            {
+              "id": "2",
+              "label": "160 x 600 px",
+              "slug": "/input/2023/iv-sauger/retargeting/industrie/160x600/index.html"
+            },
+            {
+              "id": "3",
+              "label": "300 x 250 px",
+              "slug": "/input/2023/iv-sauger/retargeting/industrie/300x250/index.html"
+            },
+            {
+              "id": "4",
+              "label": "300 x 600 px",
+              "slug": "/input/2023/iv-sauger/retargeting/industrie/300x600/index.html"
+            },
+            {
+              "id": "5",
+              "label": "320 x 480 px",
+              "slug": "/input/2023/iv-sauger/retargeting/industrie/320x480/index.html"
+            },
+            {
+              "id": "6",
+              "label": "728 x 90 px",
+              "slug": "/input/2023/iv-sauger/retargeting/industrie/728x90/index.html"
+            },
+            {
+              "id": "7",
+              "label": "800 x 250 px",
+              "slug": "/input/2023/iv-sauger/retargeting/industrie/800x250/index.html"
+            },
+            {
+              "id": "8",
+              "label": "970 x 250 px",
+              "slug": "/input/2023/iv-sauger/retargeting/industrie/970x250/index.html"
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "title": "Retargeting Lebensmittel",
+          "formats": [
+            {
+              "id": "1",
+              "label": "120 x 600 px",
+              "slug": "/input/2023/iv-sauger/retargeting/lebensmittel/120x600/index.html"
+            },
+            {
+              "id": "2",
+              "label": "160 x 600 px",
+              "slug": "/input/2023/iv-sauger/retargeting/lebensmittel/160x600/index.html"
+            },
+            {
+              "id": "3",
+              "label": "300 x 250 px",
+              "slug": "/input/2023/iv-sauger/retargeting/lebensmittel/300x250/index.html"
+            },
+            {
+              "id": "4",
+              "label": "300 x 600 px",
+              "slug": "/input/2023/iv-sauger/retargeting/lebensmittel/300x600/index.html"
+            },
+            {
+              "id": "5",
+              "label": "320 x 480 px",
+              "slug": "/input/2023/iv-sauger/retargeting/lebensmittel/320x480/index.html"
+            },
+            {
+              "id": "6",
+              "label": "728 x 90 px",
+              "slug": "/input/2023/iv-sauger/retargeting/lebensmittel/728x90/index.html"
+            },
+            {
+              "id": "7",
+              "label": "800 x 250 px",
+              "slug": "/input/2023/iv-sauger/retargeting/lebensmittel/800x250/index.html"
+            },
+            {
+              "id": "8",
+              "label": "970 x 250 px",
+              "slug": "/input/2023/iv-sauger/retargeting/lebensmittel/970x250/index.html"
             }
           ]
         }
