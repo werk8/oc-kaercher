@@ -55,14 +55,44 @@
           "title": "Retargeting",
           "formats": [
             {
+              "id": "1",
+              "label": "120 x 600 px",
+              "slug": "/input/2023/iv-sauger/retargeting/120x600/index.html"
+            },
+            {
               "id": "2",
-              "label": "160 x 600 px – Metallindustrie",
+              "label": "160 x 600 px",
               "slug": "/input/2023/iv-sauger/retargeting/160x600/index.html"
             },
             {
               "id": "3",
-              "label": "728 x 90 px – Metallindustrie",
+              "label": "300 x 250 px",
+              "slug": "/input/2023/iv-sauger/retargeting/300x250/index.html"
+            },
+            {
+              "id": "4",
+              "label": "300 x 600 px",
+              "slug": "/input/2023/iv-sauger/retargeting/300x600/index.html"
+            },
+            {
+              "id": "5",
+              "label": "320 x 480 px",
+              "slug": "/input/2023/iv-sauger/retargeting/320x480/index.html"
+            },
+            {
+              "id": "6",
+              "label": "728 x 90 px",
               "slug": "/input/2023/iv-sauger/retargeting/728x90/index.html"
+            },
+            {
+              "id": "7",
+              "label": "800 x 250 px",
+              "slug": "/input/2023/iv-sauger/retargeting/800x250/index.html"
+            },
+            {
+              "id": "8",
+              "label": "970 x 250 px",
+              "slug": "/input/2023/iv-sauger/retargeting/970x250/index.html"
             }
           ]
         }
