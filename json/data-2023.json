@@ -2,7 +2,7 @@
   "projects": [
     {
       "number": "1",
-      "title": "Akku",
+      "title": "Aktion Akku",
       "sections": [
         {
           "number": "1",
@@ -36,7 +36,7 @@
     },
     {
       "number": "2",
-      "title": "IV-Sauger",
+      "title": "Aktion IV-Sauger",
       "sections": [
         {
           "number": "1",
@@ -189,42 +189,42 @@
             {
               "id": "1",
               "label": "120 x 600 px",
-              "slug": "/input/2023/aktion-hds/awareness/120x600/index.html"
+              "slug": "/input/2023/hds/awareness/120x600/index.html"
             },
             {
               "id": "2",
               "label": "160 x 600 px",
-              "slug": "/input/2023/aktion-hds/awareness/160x600/index.html"
+              "slug": "/input/2023/hds/awareness/160x600/index.html"
             },
             {
               "id": "3",
               "label": "300 x 250 px",
-              "slug": "/input/2023/aktion-hds/awareness/300x250/index.html"
+              "slug": "/input/2023/hds/awareness/300x250/index.html"
             },
             {
               "id": "4",
               "label": "300 x 600 px",
-              "slug": "/input/2023/aktion-hds/awareness/300x600/index.html"
+              "slug": "/input/2023/hds/awareness/300x600/index.html"
             },
             {
               "id": "5",
               "label": "320 x 480 px",
-              "slug": "/input/2023/aktion-hds/awareness/320x480/index.html"
+              "slug": "/input/2023/hds/awareness/320x480/index.html"
             },
             {
               "id": "6",
               "label": "728 x 90 px",
-              "slug": "/input/2023/aktion-hds/awareness/728x90/index.html"
+              "slug": "/input/2023/hds/awareness/728x90/index.html"
             },
             {
               "id": "7",
               "label": "800 x 250 px",
-              "slug": "/input/2023/aktion-hds/awareness/800x250/index.html"
+              "slug": "/input/2023/hds/awareness/800x250/index.html"
             },
             {
               "id": "8",
               "label": "970 x 250 px",
-              "slug": "/input/2023/aktion-hds/awareness/970x250/index.html"
+              "slug": "/input/2023/hds/awareness/970x250/index.html"
             }
           ]
         },
@@ -235,12 +235,42 @@
             {
               "id": "1",
               "label": "120 x 600 px",
-              "slug": "/input/2023/aktion-hds/retargeting/120x600/index.html"
+              "slug": "/input/2023/hds/retargeting/120x600/index.html"
             },
             {
               "id": "2",
+              "label": "160 x 600 px",
+              "slug": "/input/2023/hds/retargeting/160x600/index.html"
+            },
+            {
+              "id": "3",
+              "label": "300 x 250 px",
+              "slug": "/input/2023/hds/retargeting/300x250/index.html"
+            },
+            {
+              "id": "4",
+              "label": "300 x 600 px",
+              "slug": "/input/2023/hds/retargeting/300x600/index.html"
+            },
+            {
+              "id": "5",
+              "label": "320 x 480 px",
+              "slug": "/input/2023/hds/retargeting/320x480/index.html"
+            },
+            {
+              "id": "6",
+              "label": "728 x 90 px",
+              "slug": "/input/2023/hds/retargeting/728x90/index.html"
+            },
+            {
+              "id": "7",
               "label": "800 x 250 px",
-              "slug": "/input/2023/aktion-hds/retargeting/800x250/index.html"
+              "slug": "/input/2023/hds/retargeting/800x250/index.html"
+            },
+            {
+              "id": "8",
+              "label": "970 x 250 px",
+              "slug": "/input/2023/hds/retargeting/970x250/index.html"
             }
           ]
         }
